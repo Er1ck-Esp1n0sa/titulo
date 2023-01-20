@@ -1,0 +1,28 @@
+<body>
+    <div class="contenedor">
+    <h1 class="titulo">Ingrese los siguientes datos para calcular el area de un triangulo</h1>
+    <form>
+        <div class="input1">
+            <span class="icon-input"><i>Base</i></span>
+            <input type="number"  [(ngModel)]="base" class="data-input" name="base"/>
+        </div>
+
+        <div class="input2">
+            <span class="icon-input"><i>Altura</i></span>
+            <input type="number"  [(ngModel)]="altura" class="data-input" name="altura"/>
+        </div>
+    </form>
+
+
+    <div class="button" (click)="Area()">
+        <i>Calcular Area<Main></Main></i>
+    </div>
+  
+    <div class="result-box">
+      <div class="container">
+        <div class=" resultS"><span>EL ara es: </span></div>
+        <div class=" result">{{resultado}}</div>
+      </div>
+    </div>
+</div>
+</body>
