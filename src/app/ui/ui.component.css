@@ -1,0 +1,71 @@
+body {
+    background-color: #ffdd90;
+    background-image: url("http://mitsloanreview.mx/wp-content/uploads/2022/12/lionel-messi-lecciones-liderazgo-qatar.jpg");
+  }
+
+.contenedor{
+    text-align: center;
+}
+
+.titulo{
+   color: red; 
+   margin-top: 30px;
+}
+
+.input1{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.input2{
+    text-align: center;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-input{
+    color: blue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.data-input{
+    border-radius: 9px;
+    height: 20px;
+    margin: 5px; 
+}
+
+.button{
+    border-radius: 10px;
+    border-style: solid;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    width: 150px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.result-box{
+    border-radius: 10px;
+    border-style: solid;
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.result{
+    color: red;
+    font-size: 30px;
+}
